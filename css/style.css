@@ -13,6 +13,8 @@ body {
   font-family: sans-serif;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-top: 100px;
   font-size: 20px;
 }
@@ -85,7 +87,108 @@ a {
 }
 
 .cancel {
-    position: absolute;
-    top: 10px;
-    right: 20px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 150px;
+}
+
+.card-image {
+  width: 400px;
+  height: 570px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.card-image p {
+  color: gray;
+}
+
+.technology {
+  width: 130px;
+  height: 30px;
+  background-color: lightskyblue;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding-top: 3px;
+  color: white;
+}
+
+.food {
+  width: 80px;
+  height: 30px;
+  background-color: orange;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding-top: 3px;
+  color: white;
+}
+
+.automobile {
+  width: 130px;
+  height: 30px;
+  background-color: red;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding-top: 3px;
+  color: white;
+}
+
+.title-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  line-height: 28px;
+}
+
+.title-desc h3 {
+  font-size: 27px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.card-footer {
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.card-footer img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 5px;
+  padding-left: 7px;
+}
+
+.about h6 {
+  color: gray;
 }
