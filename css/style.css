@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(98, 149, 226),
+    rgb(213, 14, 190)
+  );
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+.container {
+  width: 430px;
+  height: 500px;
+  background-color: white;
+  position: relative;
+}
+
+h1 {
+  margin-top: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.login-input {
+  width: 370px;
+  height: 45px;
+  border: 1px solid gray;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+label {
+  padding-left: 30px;
+}
+
+a {
+  color: rgb(6, 216, 216);
+  text-decoration: none;
+}
+
+.forgot-pass {
+  padding-top: 10px;
+}
+
+.login-btn {
+  width: 370px;
+  height: 45px;
+  background-image: linear-gradient(
+    to right,
+    rgb(36, 180, 227),
+    rgb(192, 46, 175)
+  );
+  display: block;
+  margin: auto;
+  margin-top: 35px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-signup {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 5px;
+}
+
+.cancel {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
