@@ -192,3 +192,43 @@ a {
 .about h6 {
   color: gray;
 }
+
+table {
+  width: 1300px;
+  margin-top: 150px;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table-thead,
+th {
+  height: 50px;
+  color: white;
+  background-color: #131416;
+  border: none;
+  text-align: left;
+  padding-left: 30px;
+}
+
+tbody:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+tr,
+td {
+  padding-left: 30px;
+  line-height: 50px;
+}
+
+tbody, tr, td {
+  border: none;
+}
+
+.td-quantity {
+  padding-left: 100px;
+}
